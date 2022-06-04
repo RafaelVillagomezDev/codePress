@@ -37,6 +37,8 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+define( 'WP_HOME', 'http://localhost/codepress/wordpress-6.0%20(2)/wordpress/' );
+define( 'WP_SITEURL', 'http://localhost/codepress/wordpress-6.0%20(2)/wordpress/' );
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -91,6 +93,8 @@ define( 'WP_DEBUG', false );
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
+
+
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
